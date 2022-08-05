@@ -42,21 +42,21 @@ export function activate(context: vscode.ExtensionContext) {
       disposables
     );
 
-    register(
-      "compositionStart",
-      (args) => {
-        console.log("compositionStart: " + JSON.stringify(args));
-      },
-      disposables
-    );
+    // register(
+    //   "compositionStart",
+    //   (args) => {
+    //     console.log("compositionStart: " + JSON.stringify(args));
+    //   },
+    //   disposables
+    // );
 
-    register(
-      "compositionEnd",
-      (args) => {
-        console.log("compositionEnd: " + JSON.stringify(args));
-      },
-      disposables
-    );
+    // register(
+    //   "compositionEnd",
+    //   (args) => {
+    //     console.log("compositionEnd: " + JSON.stringify(args));
+    //   },
+    //   disposables
+    // );
   });
 
   register("type-disabler.enableTyping", (args) => {
