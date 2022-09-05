@@ -4,6 +4,10 @@
   "description": "Disable type command by registering `type`",
   "version": "0.0.1",
   "publisher": "statiolake",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statiolake/vscode-type-disabler"
+  },
   "engines": {
     "vscode": "^1.57.0"
   },
